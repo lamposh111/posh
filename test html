@@ -1,0 +1,14 @@
+<html>
+  <head>
+   <meta charsset="utf-8">
+   <title>ทดสอบ</title>
+   <body bgcolor="#fe451d">
+    <h1><marquee>skibididop</marquee></h1>
+    <h2><marquee direction="up">skibididop😊</marquee></h2>
+    <h3><marquee direction="down">skibididop😂</marquee></h3>
+    <h4><marquee direction="right">skibididop😁</marquee></h4>
+    <h5><marquee scrollamount="1">skibididop😮‍💨</marquee></h5>
+    <h6><marquee behavior="alternate">skibididop🍑</marquee></h6>
+   </body>
+  <head>
+</html>
