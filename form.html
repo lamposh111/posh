@@ -61,7 +61,25 @@
       placeholder="ใส่ความคิดเห็นของคุณ"></textarea>
   </label>
   <br><br>
-
-
-  
+<buttom type"submit">ส่งข้อมูล</buttom>
 </form>
+  <p id="respond"></p>
+
+
+<script>
+const form = document.getELementById('studentform');
+const resposeEl = document.getELementById('respose');
+form.onsubmit = e =>{
+  e.preventDefault();
+fetch('')
+}
+  method: 'POST' ,
+  body: new URLSearchParams(new FormData(form))
+})
+  .then(() => {
+  responseEL.textContent ="ส่งข้อมูลสำเร็จ ขอบคุณ";
+  form.reset();
+})
+  .catch(() => responseEL.textContent="เกิดข้อผิดพลาด ลองใหม่");
+};
+</script>
